@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Men totem</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+
+    <!-- Import the component -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+  <script type="module" crossorigin src="/assets/main-BdgeR-2r.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/main-Bc24vQYe.css">
+</head>
+
+<body>
+    <div class="bg-black mb-4 py-2">
+      <div class="container px-4">
+        <div class="text-white">
+          Website pages:<br>
+          <div class="grid grid-cols-1  ml-4">
+            <div>
+              <a class="hover:bg-gray-300 hover:text-gray-900 font-extrabold" href="/">--home</a>
+            </div>
+            <div>&nbsp;&nbsp;Return to the website home</div>
+            <div class="relative">
+              <button class="cursor-pointer font-extrabold hover:bg-gray-300 hover:text-gray-900"
+                id="button"><div class="bg-white text-black">
+                  --projects/men-totem
+                </div></button>
+              <div id="tooltip"
+                class="absolute bg-black border-2 top-0 left-0 border-white px-4 py-2 mx-4 hidden flex flex-col">
+    
+                <a class="hover:bg-gray-300 hover:text-gray-900 whitespace-nowrap"
+                  href="/projects/biblio-manager.html">biblio-manager</a>
+                <a class="hover:bg-gray-300 hover:text-gray-900 whitespace-nowrap"
+                  href="/projects/chatbot-mockup.html">chatbot-mockup</a>
+                <a class="hover:bg-gray-300 hover:text-gray-900 whitespace-nowrap"
+                  href="/projects/icml.html">icml</a>
+                <a class="hover:bg-gray-300 hover:text-gray-900 whitespace-nowrap"
+                  href="/projects/men-totem.html">men-totem</a>
+                <a class="hover:bg-gray-300 hover:text-gray-900 whitespace-nowrap"
+                  href="/projects/mrk.html">mrk</a>
+                <a class="hover:bg-gray-300 hover:text-gray-900 whitespace-nowrap"
+                  href="/projects/novita-fiscali.html">novita-fiscali</a>
+              </div>
+            </div>
+            <div>&nbsp;&nbsp;View a project I got involved</div>
+          </div>
+        </div>
+      </div>
+    </div>    <div class="flex flex-col justify-center">
+        <div class="flex flex-col items-center">
+            <div class="container flex flex-col items-center px-4 ">
+                <div class="flex flex-col items-center">
+                    <div class="mb-4">
+                        <h1 class="text-2xl">Interactive Municipal Map Totem for Mendrisio City Hall</h1>
+                        <small>A totem to find them all</small>
+                    </div>
+                    <p class="text-center mb-4">A touchscreen-enabled web application displayed on a public totem,
+                        providing an interactive floor plan of the city hall with real-time pathfinding to selected
+                        offices.</p>
+                    <div class="border-4 border-black rounded-2xl w-full sm:w-[80%] md:w-[500px] p-1 mb-4">
+                        <img class="w-full" src="/assets/ECAM-Header-BOimP0lR.gif"></img>
+                    </div>
+                    <p class="mb-4 text-center">The project involved developing a standalone, kiosk-mode web page
+                        deployed on a totem in the Mendrisio City Hall atrium. The interface features an interactive map
+                        of the municipal building, allowing visitors to select a destination office. Upon selection, the
+                        system automatically calculates and highlights the optimal route from the entrance to the chosen
+                        office, displayed clearly on the large screen. The map itself was modeled in 3D by me using
+                        Blender and exported as a high-quality SVG for seamless integration into the web application.
+                        The solution prioritizes usability for non-technical users, fast load times, and a responsive
+                        layout optimized for touch interaction in a public environment.</p>
+                    <!-- Use it like any other HTML element -->
+                    <model-viewer id="neutral-demo" camera-orbit="45deg 55deg 1m" environment-image="legacy"
+                        class=" border-4 border-black rounded-2xl w-full sm:w-[80%] md:w-[500px] p-1 mb-4 h-120"
+                        alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum"
+                        src="/p0-v.1.0.1.glb" poster="shared-assets/models/NeilArmstrong.webp" shadow-intensity="1"
+                        camera-controls touch-action="pan-y"></model-viewer>
+                    <div>
+                        <h2 class="text-xl mb-2">Technologies used</h2>
+                        <ul>
+                            <li>Vite, Tailwind CSS, HTML, CSS, TypeScript</li>
+                            <li>Blender (3D modeling)</li>
+                            <li>Mapplic</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-black mt-4 py-2">
+      <div class="container px-4">
+        <div class="text-white">
+          <a href="mailto:enbott@gmail.com?subject=What's app enrico?">
+            contact me at enrico.bottani@hotmail.com
+          </a>
+        </div>
+      </div>
+    </div>    
+</body>
+
+</html>
